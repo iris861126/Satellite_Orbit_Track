@@ -30,8 +30,8 @@ while True:
         print("Invalid value! Please do it again.")
 
 origin = datetime(1990, 1,  1, 0,  0, 0, 0) 
-star_t = datetime(1990, 3, 22, 2, 58, 0, 0)
-end_t  = datetime(1990, 3, 22, 8,  4, 0, 0)
+star_t = datetime(1990, 3, 22, 2, 58, 0, 0)    # change the start time here
+end_t  = datetime(1990, 3, 22, 8,  4, 0, 0)    # change the end time here
 ree         = 6378.140               #[km]
 j2          = 0.00198263
 total_time  = 3*T
